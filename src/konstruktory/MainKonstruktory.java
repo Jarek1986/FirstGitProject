@@ -3,16 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gittwotest;
+package konstruktory;
 
 /**
  *
- * @author Jarek
+ * @author jaroslaw.ziolkowski
  */
-public class MainGit2 {
+public class MainKonstruktory {
     public static void main(String[] args) {
-        System.out.println("First change");
-        System.out.println("Second change");
-        System.out.println("This change was done at Scope, Friday, 21.04.2017");
+        
+        int say = 5;
+        Dog myDog1 = new Dog(5);
+        Dog myDog2 = new Dog("wow");
+        myDog2.Pic();
     }
 }
