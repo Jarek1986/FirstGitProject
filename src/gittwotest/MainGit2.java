@@ -14,5 +14,6 @@ public class MainGit2 {
         System.out.println("First change");
         System.out.println("Second change");
         System.out.println("This change was done at Scope, Friday, 21.04.2017");
+        System.out.println("This change was done at Scope, Friday, afternoon, 21.04.2017");
     }
 }
